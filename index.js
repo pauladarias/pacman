@@ -813,3 +813,26 @@ function createBoard() {
 }
 
 createBoard();
+
+//pacman starting position
+let pacmanCurrentIndex = 490;
+squares[pacmanCurrentIndex].classList.add("pacman");
+
+// moving pacman using keys
+function control(e) {
+  switch (e.keyCode) {
+    case 40:
+      console.log("down");
+      break;
+    case 38:
+      console.log("up");
+      break;
+    case 37:
+      console.log("left");
+      break;
+    case 39:
+      console.log("right");
+  }
+}
+
+document.addEventListener("keyup", control);
