@@ -40,17 +40,17 @@ body {
 }
 
 .blinky {
-  background-color: mediumvioletred;
+  background-color: rgb(38, 243, 147);
   border: none;
 }
 
 .pinky {
-  background-color: pink;
+  background-color: fuchsia;
   border: none;
 }
 
 .inky {
-  background-color: lightblue;
+  background-color: aquamarine;
   border: none;
 }
 
